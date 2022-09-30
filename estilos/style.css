@@ -1,0 +1,541 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+:root{
+    --font1: 'Oswald', sans-serif;;
+    --font2: 'Open Sans', sans-serif;
+    --cor1: #003D66;
+    --cor2: #1b78c5;
+    --cor3: #d1ebfc;
+    --cor4: #AECEE3;
+    --cor5: #266AA6;
+}
+
+
+.cabeca{
+    background-color: #1E71B6;
+}
+
+.cabeca .conteiner{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.cabeca .conteiner .contato{
+    display: flex;
+    padding: 6px 10px;
+    font-size: 12px;
+    color: white;
+}
+
+.cabeca .conteiner .contato p{
+    margin: 0 10px;
+}
+
+.cabeca .conteiner .item{
+    color: white;
+    padding-right: 10px;
+    font-size: 12px;
+    font-family: var(--font2);
+}
+
+.interativo-ceteal{
+    background-color: #003D66;
+    width: 100%;
+}
+
+.interativo-ceteal .conteiner{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-family: var(--font1);
+}
+
+.interativo-ceteal .conteiner .imagem-ceteal{
+    display: flex;
+    padding-left: 20px;
+    align-items: center;
+    justify-content: space-between;
+    width: 100vw;
+}
+
+.interativo-ceteal .conteiner .imagem-ceteal img{
+    width: 180px;
+    padding: 5px 10px;
+    margin-bottom: 10px;
+}
+
+
+.interativo-ceteal .conteiner .imagem-ceteal .menus{
+    display: flex;
+    font-family: var(--font1);
+    font-weight: 400;
+    position: relative;
+    font-size: 14px;
+}
+
+.interativo-ceteal .conteiner .imagem-ceteal .menus .icon .aba{
+    display: none;
+    display: relative;
+    z-index: 10;
+    width: 30px;
+    cursor: pointer;
+    margin-right: 20px;
+    border: 1px solid black;
+}
+
+.interativo-ceteal .conteiner .imagem-ceteal .menus p{
+    margin: 0 15px;
+}
+
+.interativo-ceteal .conteiner .imagem-ceteal .menus a{
+    text-decoration: none;
+    color: var(--cor3);
+}
+
+.interativo-ceteal .conteiner .imagem-ceteal .menus .home{
+    color: white;
+}
+
+.interativo-ceteal .conteiner .imagem-ceteal .menus .ctt{
+    padding-right: 20px;
+}
+
+
+main .conteiner .main-imagem img{
+    width: 100vw;
+    height: 410px;
+    object-fit: cover;
+    margin-top: -10px;
+    background-attachment: fixed;
+    position: relative;
+    background-attachment: fixed;
+    position: static;
+}
+
+main .conteiner .main-imagem .cursos-online{
+    position: absolute;
+    left: 50%;
+    top: 23%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: white;
+    font-weight: 300;
+    font-family: var(--font1);
+    font-size: 48px;
+}
+
+main .conteiner .main-imagem .aprendizado{
+    position: absolute;
+    left: 50%;
+    top: 29.5%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: white;
+    font-weight: 500;
+    font-family: var(--font1);
+    font-size: 20px;
+}
+
+main .conteiner .main-imagem .aulas{
+    position: absolute;
+    left: 50%;
+    top: 33.5%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: white;
+    font-weight: 500;
+    font-family: var(--font1);
+    font-size: 17px;
+}
+
+main .conteiner .main-imagem .condicoes{
+    position: absolute;
+    left: 50%;
+    top: 37.5%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-weight: 500;
+    font-family: var(--font1);
+    font-size: 17px;
+}
+
+main .conteiner .main-imagem  .consulte{
+    position: absolute;
+    left: 50%;
+    top: 41%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-weight: 500;
+    font-family: var(--font1);
+    font-size: 14px;
+}
+
+main .conteiner .main-imagem .btn{
+    position: absolute;
+    left: 50%;
+    top: 48%;
+    transform: translate(-50%, -50%);
+    font-weight: 500;
+    font-family: var(--font1);
+    font-size: 12px;
+}
+main .conteiner .main-imagem  a{
+    text-decoration: none;
+    padding: 5px 13px;
+    border: 2px solid white;
+    color: white;
+    font-family: var(--font2);
+    font-weight: 600;
+}
+
+.btn:hover{
+    padding-right: 5px;
+    transition: 0.3s;
+    text-decoration: none;
+}
+main .conteiner .main-imagem .texto a:hover{
+    background-color: #594747b6;
+    border: 2px solid black;
+    text-decoration: none;
+    text-align: left;
+    transition: 0.3s;
+}
+
+.elemento{
+    background-color: rgba(212, 212, 212, 0.219);
+    width: 100%;
+}
+
+.elemento .conteiner{
+    padding: 43px 0;
+    width: 60%;
+    margin: auto;
+}
+
+.elemento .conteiner .textos h2{
+    color: #235E9C;
+    font-family: var(--font1);
+    font-weight: 400;
+    font-size: 28px;
+    padding-bottom: 25px;
+    margin: auto;
+}
+.elemento .conteiner .textos p{
+    width: 90%;
+    text-align: justify;
+}
+
+
+.elemento .conteiner .textos .texto2{
+    font-family: var(--font2);
+    font-size: 15px;
+}
+
+.elemento .conteiner .textos .texto3{
+    font-family: var(--font2);
+    font-size: 15px;
+    padding-top: 25px;
+}
+.elemento .conteiner .textos strong {
+    font-weight: 700;
+    font-family: var(--font2);
+}
+
+.cursos .conteiner{
+    width: 65%;
+    height: auto;
+    margin: auto;
+
+}
+
+.cursos .conteiner .elementos{
+    text-align: center;
+    flex-wrap: nowrap;
+    display: flex;
+    margin: auto;
+    justify-content: space-between;
+}
+.cursos .conteiner .elementos .banner1{
+    width: 180px;
+    height: 300px;
+ 
+}
+.cursos .conteiner .elementos .banner1 img{
+    width: 80px;
+}
+
+.cursos .conteiner .elementos .banner2{
+    width: 180px;
+    height: 300px;
+    
+}
+
+.cursos .conteiner .elementos .banner2 img{
+    width: 80px;
+}
+
+.cursos .conteiner .elementos .banner3{
+    width: 180px;
+    height: 300px;
+    
+}
+
+.cursos .conteiner .elementos .banner3 img{
+    width: 80px;
+}
+
+.cursos .conteiner .elementos .banner4{
+    width: 180px;
+    height: 300px;
+    
+}
+
+.cursos .conteiner .elementos .banner4 img{
+    width: 80px;
+}
+
+.cursos .conteiner .elementos a{
+    text-decoration: none;
+    color: black;
+}
+
+.cursos .conteiner .elementos p{
+    font-family: var(--font2);
+    font-weight: 300;
+    font-size: 13px;
+}
+
+.cursos .conteiner .elementos h3{
+    font-family: var(--font1);
+    font-weight: 500;
+    font-size: 15px;
+    padding: 12px 0;
+}
+
+section .conteiner .information{
+    text-align: center;
+    margin: auto;
+    height: 650px;
+}
+section .conteiner .information h2{
+    padding-top: 70px;
+    font-weight: 650;
+    font-family: var(--font1);
+    font-size: 30px;
+}
+section .conteiner .information h3{
+    font-weight: 500;
+    font-family: var(--font1);
+    font-size: 27px;
+    color: #636363;
+    padding-bottom: 50px;
+}
+section .conteiner .information img{
+    width: 500px;
+    margin: auto;
+}
+section .conteiner .information p{
+    padding-top: 50px;
+    font-family: var(--font2);
+    font-weight: 500;
+}
+
+section .conteiner .information a{
+    text-decoration: none;
+    font-size: 17px;
+    border: 2px solid #235e9c;
+    border-radius: 2px;
+    padding: 5px 10px;
+}
+
+.sobre{
+    background-color: #629ECC;
+}
+.sobre .conteiner{
+    height: 280px;
+}
+.sobre .conteiner .aviso {
+    color: white;
+    text-align: center;
+    padding-top: 80px;
+}
+
+.sobre .conteiner .aviso h3{
+    font-family: var(--font1);
+    font-size: 30px;
+}
+
+.sobre .conteiner .aviso p{
+    font-family: var(--font2);
+}
+
+.sobre .conteiner .aviso a{
+    text-decoration: none;
+    color: cyan;
+}
+
+.sobre .conteiner .aviso a:hover{
+    color: #003D66;
+    text-decoration: underline;
+}
+
+.sobre .conteiner .redes-sociais{
+    text-align: center;
+    padding: 15px 10px;
+}
+
+section .er{
+    height: 100px;
+}
+
+footer .conteiner{
+    background-color: #003D66;
+    height: 70px;
+}
+
+footer .conteiner .texto{
+    color: white;
+    padding-top: 25px;
+    text-align: center;
+    font-family: var(--font2);
+    font-weight: 300;
+}
+
+
+@media (max-width:1040px){
+   
+    .interativo-ceteal .conteiner .imagem-ceteal .menus{
+        display: none;
+    }
+    .interativo-ceteal .conteiner .imagem-ceteal .menus .icon .aba{
+        display: block;
+    }
+}
+
+@media (max-width:835px) {
+    section .conteiner .information img{
+        width: 400px;
+        
+    }
+}
+
+@media (max-width:420px) {
+    section .conteiner .information img{
+        width: 320px;
+        
+    }
+}
+
+@media  (max-width:710px) {
+    .elemento .conteiner{
+        padding-left: 20px;
+        width: 100%;
+    }
+}
+
+@media (max-width:530px){
+    main .conteiner .main-imagem .cursos-online{
+        font-size: 30px;
+    }
+    main .conteiner .main-imagem .aprendizado {
+        font-size: 14.5px;
+    }
+
+    main .conteiner .main-imagem .consulte{
+        font-size: 13.7px;
+    }
+    main .conteiner .main-imagem img{
+        height: 320px;
+    }
+}
+
+@media (max-height:600px){
+    main .conteiner .main-imagem .cursos-online{
+        position: absolute;
+        left: 50%;
+        top: 35%;
+        transform: translate(-50%, -50%);
+        text-align: center;
+        color: white;
+        font-weight: 300;
+        font-family: var(--font1);
+        font-size: 20px;
+    }
+    main .conteiner .main-imagem .aprendizado{
+        position: absolute;
+        left: 50%;
+        top: 43%;
+        transform: translate(-50%, -50%);
+        text-align: center;
+        color: white;
+        font-weight: 500;
+        font-family: var(--font1);
+        font-size: 18px;
+    }
+    
+    main .conteiner .main-imagem .aulas{
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+        text-align: center;
+        color: white;
+        font-weight: 500;
+        font-family: var(--font1);
+        font-size: 15px;
+    }
+    
+    main .conteiner .main-imagem .condicoes{
+        position: absolute;
+        left: 50%;
+        top: 55%;
+        transform: translate(-50%, -50%);
+        color: white;
+        font-weight: 500;
+        font-family: var(--font1);
+        font-size: 15px;
+    }
+    
+    main .conteiner .main-imagem  .consulte{
+        position: absolute;
+        left: 50%;
+        top: 62%;
+        transform: translate(-50%, -50%);
+        color: white;
+        font-weight: 500;
+        font-family: var(--font1);
+        font-size: 15px;
+        text-align: center;
+    }
+    
+    main .conteiner .main-imagem .btn{
+        position: absolute;
+        left: 50%;
+        top: 70%;
+        transform: translate(-50%, -50%);
+        font-weight: 500;
+        font-family: var(--font1);
+        font-size: 12px;
+    }
+}
+
+@media (max-width:870px) {
+    .cursos .conteiner .elementos{
+        flex-direction: column;
+        margin: auto;
+    }
+    .cursos .conteiner{
+        width: 30%;
+    }
+}
